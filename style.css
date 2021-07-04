@@ -4,6 +4,10 @@ body {
     padding: 0%;
 }
 
+.txt-alg-lft {
+    text-align: left;
+}
+
 h1 {
     font-size: 50px;
 }
