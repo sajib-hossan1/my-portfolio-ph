@@ -12,9 +12,12 @@ h1 {
     color: orange;
 }
 
-.banner {
+section {
     display: flex;
+    margin-bottom: 120px;
+}
 
+.banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -23,6 +26,11 @@ h1 {
     width: 50%;
     padding-left: 6%;
     padding-top: 15px;
+}
+
+.second-section-text {
+    padding-left: 0px;
+    padding-right: 8%;
 }
 
 .half-width img {
@@ -36,4 +44,10 @@ h1 {
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.second-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
